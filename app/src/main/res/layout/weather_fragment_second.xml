@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_centerInParent="true"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:layoutDirection="ltr"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="@dimen/cardview_default_elevation">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/weather_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/weather_day1_day_TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:lines="1"
+                android:src="@mipmap/ic_launcher"
+                android:text="day"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/weather_day2_day_TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:lines="1"
+                android:src="@mipmap/ic_launcher"
+                android:text="day"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/weather_day3_day_TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:lines="1"
+                android:src="@mipmap/ic_launcher"
+                android:text="day"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/weather_day4_day_TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:lines="1"
+                android:src="@mipmap/ic_launcher"
+                android:text="day"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/weather_day5_day_TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:lines="1"
+                android:src="@mipmap/ic_launcher"
+                android:text="day"
+                android:textColor="#000"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-11dp"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/weather_day1_image_iv"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/weather_day2_image_iv"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/weather_day3_image_iv"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/weather_day4_image_iv"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/weather_day5_image_iv"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/weather_day1TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:src="@mipmap/ic_launcher"
+                android:textColor="#000"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/weather_day2TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:src="@mipmap/ic_launcher"
+                android:textColor="#000"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/weather_day3TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:src="@mipmap/ic_launcher"
+                android:textColor="#000"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/weather_day4TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:src="@mipmap/ic_launcher"
+                android:textColor="#000"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/weather_day5TV"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:src="@mipmap/ic_launcher"
+                android:textColor="#000"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
